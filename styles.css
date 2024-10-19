@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.register-container {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 430px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.register-container .form-control {
+    border-radius: 20px;
+}
+.register-container .btn {
+    width: 100%;
+    border-radius: 20px;
+}
+.register-container .login-link {
+    text-align: center;
+    margin-top: 10px;
+}
